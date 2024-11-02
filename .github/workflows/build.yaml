@@ -63,4 +63,4 @@ jobs:
 
           ghcr.io/mahmoudkhairym/getting_started:latest
 
-          ghcr.io/mahmoudkhairym/getting_started:${{ github.sha }}
+          ghcr.io/mahmoudkhairym/getting_started:${{github.sha}}
