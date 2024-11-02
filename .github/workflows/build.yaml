@@ -61,6 +61,6 @@ jobs:
 
         tags: |
 
-          ghcr.io/${{ github.repository_owner }}/getting_started:latest
+          ghcr.io/mahmoudkhairym/getting_started:latest
 
-          ghcr.io/${{ github.repository_owner }}/getting_started:${{ github.sha }}
+          ghcr.io/mahmoudkhairym/getting_started:${{ github.sha }}
