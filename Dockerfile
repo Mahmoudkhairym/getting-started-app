@@ -4,7 +4,7 @@ WORKDIR /app
 
 ADD package.json .
 
-RUN yarn install --production &7 yarn cache clean
+RUN yarn install --production && yarn cache clean
 
 ADD . .
 
